@@ -32,7 +32,9 @@
       "access_key" : "${SAUCE_ACCESS_KEY}",
 
       "desiredCapabilities": {
-        "browserName": "firefox",
+        "browserName": "chrome",
+        "platform": "XP",
+        "version": "41",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }

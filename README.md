@@ -13,4 +13,8 @@ install bundler:
 ```
 
 # Running tests
-to run tests: `./node_modules/.bin/nightwatch -t tests/github.js`
+to run tests:
+```
+	./node_modules/.bin/nightwatch -e default,firefox,internet_explorer_10 -test tests/*.js
+
+```

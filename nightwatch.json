@@ -40,11 +40,19 @@
       }
     },
 
-    "chrome" : {
+    "firefox" : {
       "desiredCapabilities": {
-        "browserName": "chrome",
-        "javascriptEnabled": true,
-        "acceptSslCerts": true
+        "browserName": "firefox",
+        "platform": "XP",
+        "version": "33"
+      }
+    },
+
+    "internet_explorer_10" : {
+      "desiredCapabilities": {
+        "browserName": "internet explorer",
+        "platform": "Windows 7",
+        "version": "10"
       }
     }
   }

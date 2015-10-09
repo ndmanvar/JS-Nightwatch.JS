@@ -18,7 +18,6 @@ module.exports = {
       .assert.containsText('.container .breadcrumb a span', 'nightwatch', 'Checking project title is set to nightwatch');
   },
 
-
     afterEach: function(client, done) {
 
     client.customEnd(client.currentTest.results.failed);

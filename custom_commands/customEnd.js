@@ -8,10 +8,11 @@ exports.command = function(result) {
     });
 
 	var sessionid = this.capabilities['webdriver.remote.sessionid'];
-  var jobName = this.options.desiredCapabilities.name;
+  var jobName = this.currentTest.name;
 
   saucelabs.updateJob(sessionid, {
-    passed: result === 0
+    passed: result === 0,
+    name: jobName
   }, function(){});
 
   console.log("SauceOnDemandSessionID=" + sessionid + " job-name=" + jobName);

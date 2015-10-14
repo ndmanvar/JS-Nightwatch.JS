@@ -15,6 +15,6 @@ install bundler:
 # Running tests
 to run tests:
 ```
-	./node_modules/.bin/nightwatch -e default,firefox,internet_explorer_10 tests
+	./node_modules/.bin/nightwatch -e chrome,firefox,internet_explorer_10,android_s4_emulator,iphone_6_simulator tests
 
 ```

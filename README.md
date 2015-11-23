@@ -8,8 +8,7 @@
 # Setup
 install bundler:
 ```
-	npm install nightwatch
-	npm install nodeunit -g
+	npm install
 ```
 
 # Running tests
